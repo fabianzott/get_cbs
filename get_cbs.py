@@ -8,7 +8,7 @@
 #                                               -> CCSD(T)/cc-pVTZ single points must end with "_TZ.out"                                        #
 #                                               -> CCSD(T)/cc-pVQZ single points must end with "_QZ.out"                                        #
 #                                                                                                                                                #
-#                                               Relevant data will be generated in a .txt file!                                                  #
+#                                               Relevant data will be generated in a .txt file (cbs_data.txt)!                                                  #
 #                                                                                                                                                #
 #                                                       Version: 1.03                                                                            #
 #                                                                                                                                                #
@@ -262,5 +262,5 @@ print("\n")
 print("------------------------Code run smoothly!!------------------------")
 
 
-data.to_csv(r'./getData.txt', sep='\t', header='true', index=False, index_label=False, na_rep='NULL')
+data.to_csv(r'./cbs_data.txt', sep='\t', header='true', index=False, index_label=False, na_rep='NULL')
 
