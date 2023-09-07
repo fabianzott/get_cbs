@@ -256,11 +256,7 @@ print("\n")
 print("\n")
 print("\n")
 
-
 #print(data.info())
 
-print("------------------------Code run smoothly!!------------------------")
-
-
 data.to_csv(r'./cbs_data.txt', sep='\t', header='true', index=False, index_label=False, na_rep='NULL')
-
+print("------------------------Code run smoothly!!------------------------")
